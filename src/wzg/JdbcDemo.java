@@ -17,7 +17,7 @@ public class JdbcDemo {
 			//建立连接很耗时。
 			//真正开发中会使用连接池来管理连接对象
 			//获取数据库连接对象
-			conn= DriverManager.getConnection("jdbc:mysql://localhost:3306/wzg","root","wzg29211");
+			conn= DriverManager.getConnection("jdbc:mysql://localhost:3306/wzg","root","1111");
 			//获得数据库连接
 			stmt = conn.createStatement();
 			rs = stmt.executeQuery("select * from teacher4;");

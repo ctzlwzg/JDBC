@@ -24,7 +24,7 @@ import java.sql.Statement;
 			//加载驱动
 			Class.forName("com.mysql.jdbc.Driver");
 			//获取数据库连接
-			con = DriverManager.getConnection("jdbc:mysql://127.0.0.1:3306/wzg","root","wzg29211");
+			con = DriverManager.getConnection("jdbc:mysql://127.0.0.1:3306/wzg","root","1111");
 
 			//设置不自动提交
 			con.setAutoCommit(false);

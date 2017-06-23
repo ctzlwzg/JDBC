@@ -21,7 +21,7 @@ import java.sql.SQLException;
 			//加载驱动
 			Class.forName("com.mysql.jdbc.Driver");
 			//获取数据库连接
-			con = DriverManager.getConnection("jdbc:mysql://127.0.0.1:3306/wzg","root","wzg29211");
+			con = DriverManager.getConnection("jdbc:mysql://127.0.0.1:3306/wzg","root","1111");
 			//执行sql语句
 			String sql = "select teacher_id,teacher_name from teacher4 where teacher_id>?";
 			ps = con.prepareStatement(sql);
